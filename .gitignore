@@ -1,0 +1,10 @@
+# BE
+/Parking-App-parking_be/node_modules
+/Parking-App-parking_be/ngrok.exe
+
+# FE
+/Parking-App-parking_fe/node_modules
+/Parking-App-parking_fe/.pnp
+/Parking-App-parking_fe/.pnp.js
+/Parking-App-parking_fe/package-lock.json
+/Parking-App-parking_fe/build

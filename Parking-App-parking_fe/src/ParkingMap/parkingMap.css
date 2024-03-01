@@ -1,0 +1,34 @@
+body{
+    background-color: #f7e9d7;
+}
+
+.slots{
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+
+
+.slots:hover{
+    background-color: skyblue;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.slot-hover{
+    display:none;  
+}
+
+.slots:hover .slot-hover{
+    position: absolute ;
+    text-align: center;
+    border-radius: 10px;
+   display: block;
+   z-index: 9999;
+   height:100%;
+   width:100%;
+   color:white ;
+   background-color: rgba(71, 153, 220,0.9);
+
+}
