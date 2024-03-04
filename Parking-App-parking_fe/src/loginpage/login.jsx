@@ -39,13 +39,13 @@ export default function Login() {
     }
     return (
         <>
-            <ToastContainer
+            {/* <ToastContainer
                 position="top-center"
                 autoClose={2000}
                 hideProgressBar={false}
                 newestOnTop={false}
                 closeOnClick
-            />
+            /> */}
             <div class="login-form">
 
 

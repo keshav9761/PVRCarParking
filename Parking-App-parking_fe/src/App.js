@@ -2,6 +2,7 @@ import { useRoutes } from 'react-router-dom'
 import Login from './loginpage/login'
 import Parkingmap from './ParkingMap/parkingmap'
 import { Protected } from './HOC/Protected'
+import { ToastContainer } from 'react-toastify'
 function App() {
 
   const routes = useRoutes ([
@@ -15,7 +16,13 @@ function App() {
   return (
     <>
     {routes}
-    
+    <ToastContainer
+                position="top-center"
+                autoClose={2000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+            />
     </>
   )
 }

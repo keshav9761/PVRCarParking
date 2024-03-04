@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 import { Button, Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap'
 import { BookSlot } from '../Service/updateApi'
 import '../App.css'
+import useAPICall from '../HOC/useAPICall'
 export default function UnParkedModal(props) {
-
+const res=useAPICall()
 console.log(props.visible);
   const { visible, setVisible,from_date,slot_num,setOpen,open,setSlots} = props
   
